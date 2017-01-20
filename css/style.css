@@ -1,0 +1,215 @@
+.camera_wrap {
+display: none;
+/*margin: 0 auto;*/
+overflow: visible !important;
+position: relative;
+/*width: 1200px !important;*/
+z-index: 0;
+}
+
+
+.camera_wrap .camera_pag .camera_pag_ul {
+    
+    display: none;
+    
+}
+
+
+
+/*parallex js css*/
+.middle {
+	min-height: 400px;
+}
+.corner{
+	min-height: 200px;
+	background: url(images/mega-menu-1200x400.jpg);
+}
+.helloworld{
+	text-align: center;
+	color:#f48042;
+}
+
+.parallax-target {
+    min-height: 400px;
+    background: transparent;
+}
+/* swiper */
+body {
+        position: relative;
+        height: 100%;
+    }
+    body {
+        background: #eee;
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        color:#000;
+        margin: 0;
+        padding: 0;
+    }
+    element.style {
+    width: 100%;
+}
+    .swiper-container {
+        width: 100%;
+        height: 100%;
+        background: #000;
+    }
+    .swiper-slide {
+        font-size: 18px;
+        color:#fff;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        padding: 40px 60px;
+    }
+    .parallax-bg {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 130%;
+        height: 100%;
+        -webkit-background-size: cover;
+        background-size: cover;
+        background-position: center;
+    }
+    .swiper-slide .title {
+        font-size: 41px;
+        font-weight: 300;
+    }
+    .swiper-slide .subtitle {
+        font-size: 21px;
+    }
+    .swiper-slide .text {
+        font-size: 14px;
+        max-width: 400px;
+        line-height: 1.3;
+        /*border:2px solid red;*/
+        
+  }
+
+
+
+
+
+
+/* header style start */
+.mid{
+	width:70%;
+	margin: auto;
+}
+header{
+	background:#22262A;
+	padding: 30px 0;
+	overflow:hidden;
+}
+header:after{
+	content:'';
+	display:block;
+	clear:both;
+}
+.header-fix{
+	position:fixed;
+	width:100%;
+	overflow:hidden;
+	z-index:5;
+}
+
+.nav{
+	float:left;
+	overflow:hidden;
+	width:70%;
+}
+.nav ul{
+	float:right;
+}
+.nav ul li{
+	float:left;
+}
+.nav ul li a{
+	color:#fff;
+	padding: 10px 20px;
+	display:block;
+	font-size:14px;
+}
+.nav ul li a:hover{
+	color:#82C339;
+}
+ 
+.banner01{
+	background:url('../images/background-01-1920x900.jpg') 0 no-repeat fixed;
+	width:100%;
+	height:590px;
+	overflow:hidden;
+	z-index:1;
+}
+.blr{
+	width:100%;
+	height:600px;
+	background:rgba(0,0,0,.5);
+	overflow:hidden;
+}
+.blr2{
+	width:100%;
+	height:430px;
+	background:rgba(0,0,0,.5);
+	overflow:hidden;
+}
+.banner01 h1{
+	color:#fff;
+	font-size:60px;
+	font-weight:200;
+	margin:0;
+	margin-top: 200px;
+	z-index:2;
+}
+.banner01 h2{
+	color:#fff;
+	font-size:40px;
+	font-weight:500;
+	overflow:hidden;
+}
+
+
+element.style {
+    /* color: black; */
+    width: 100%;
+}
+
+
+.swiper-slide img  {
+    display: block;
+    margin: auto;
+}
+
+.swiper-slide p{
+	/*border:2px solid red;*/
+	text-align: center;
+vertical-align: middle;
+
+    
+}
+
+/*here is light box */
+
+.middle{
+	background: url(../images/color.jpg) ;
+	/*background-size:cover;*/
+	/*max-height: 120px;*/
+	text-transform: uppercase;
+	color: orange;
+}
+.example{
+	/*border:2px solid red;*/
+	height: 220px;
+	width: 20%
+	padding-left:20px;
+}
+
+.example:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100);
+    -moz-box-shadow: 0 0 10px #ccc;
+    -webkit-box-shadow: 0 0 10px #ccc;
+    box-shadow: 0 0 10px #ccc;
+}
+
+
